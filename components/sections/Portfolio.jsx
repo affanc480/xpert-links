@@ -24,12 +24,12 @@ const projects = [
     image: '💰',
   },
   {
-    title: 'Healthcare AI System',
-    category: 'Healthcare',
-    description: 'AI-powered diagnostic and patient care management system.',
-    technologies: ['Python', 'PyTorch', 'PostgreSQL', 'Azure'],
-    results: ['80% Faster Diagnosis', '95% Accuracy', '50% Cost Reduction'],
-    image: '🏥',
+    title: 'Machine Integration System',
+    category: 'Industrial Automation',
+    description: 'Advanced machine integration solutions for seamless connectivity, automation, and real-time monitoring.',
+    technologies: ['PLC', 'SCADA', 'OPC UA', 'Industrial IoT'],
+    results: ['40% Higher Efficiency', '99.9% System Uptime', '35% Reduced Downtime'],
+    image: '🏭',
   },
   {
     title: 'E-Commerce Intelligence',

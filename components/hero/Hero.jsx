@@ -76,7 +76,7 @@ export function Hero() {
               Xpert Link delivers innovation that drives real business growth.
             </motion.p>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
@@ -90,9 +90,9 @@ export function Hero() {
                 <Play className="mr-2 w-4 h-4" />
                 Watch Demo
               </Button>
-            </motion.div>
+            </motion.div> */}
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
@@ -120,7 +120,7 @@ export function Hero() {
                   Trusted by 500+ companies worldwide
                 </p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
 
           {/* Right Content - Hero Visual */}
@@ -162,7 +162,7 @@ export function Hero() {
                       <Shield className="w-4 h-4 text-blue-400" />
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-black dark:text-white">Enterprise Security</p>
+                      <p className="text-sm font-medium text-black dark:text-white">ERP</p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">256-bit encryption</p>
                     </div>
                   </div>

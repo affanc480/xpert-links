@@ -9,7 +9,8 @@ import {
   ShoppingBag,
   Cpu,
   ArrowRight,
-  CheckCircle 
+  CheckCircle, 
+  Bot
 } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
@@ -23,10 +24,10 @@ const industries = [
     solutions: ['Fraud Detection', 'Risk Management', 'Automated Trading', 'Customer Analytics'],
   },
   {
-    icon: Stethoscope,
-    name: 'Healthcare',
-    description: 'Transform patient care with AI diagnostics and intelligent systems.',
-    solutions: ['Medical Imaging AI', 'Patient Management', 'Drug Discovery', 'Telemedicine'],
+    icon: Cpu,
+    name: 'Machine integration',
+    description: 'Transform industrial operations with intelligent machine integration and smart automation systems.',
+    solutions: ['PLC Integration', 'SCADA Systems', 'Industrial Automation', 'Machine Monitoring'],
   },
   {
     icon: GraduationCap,
@@ -47,10 +48,10 @@ const industries = [
     solutions: ['Personalization', 'Inventory Management', 'Customer Analytics', 'Omnichannel Solutions'],
   },
   {
-    icon: Cpu,
-    name: 'Technology',
-    description: 'Cutting-edge innovation for the technology sector.',
-    solutions: ['Cloud Infrastructure', 'AI Platforms', 'DevOps Solutions', 'IoT Systems'],
+    icon: Bot,
+    name: 'Manufacturing',
+    description: 'Smart manufacturing software built to optimise production and operational efficiency.',
+    solutions: ['Production Planning', 'Inventory Management', 'Warehouse Management', 'Production Analytics'],
   },
 ];
 
@@ -113,10 +114,10 @@ export default function Industries() {
                       </div>
                     ))}
                   </div>
-                  <Button variant="ghost" className="text-blue-400">
+                  {/* <Button variant="ghost" className="text-blue-400">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
+                  </Button> */}
                 </Card>
               </motion.div>
             ))}

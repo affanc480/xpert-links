@@ -109,10 +109,10 @@ export default function Solutions() {
                           </li>
                         ))}
                       </ul>
-                      <Button variant="ghost" className="text-blue-400">
+                      {/* <Button variant="ghost" className="text-blue-400">
                         Learn More
                         <ArrowRight className="ml-2 w-4 h-4" />
-                      </Button>
+                      </Button> */}
                     </div>
                   </div>
                 </Card>

@@ -27,7 +27,7 @@ const faqs = [
   {
     category: 'Industries',
     question: 'What industries do you serve?',
-    answer: 'We serve a wide range of industries including Finance, Healthcare, Education, Retail, Technology, and FinTech. Our solutions are adaptable to any sector seeking digital transformation.',
+    answer: 'We serve a wide range of industries including Finance, Machine Integration, Education, Retail, Technology, and FinTech. Our solutions are adaptable to any sector seeking digital transformation.',
   },
   {
     category: 'Process',

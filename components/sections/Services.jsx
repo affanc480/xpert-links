@@ -29,9 +29,9 @@ const services = [
   },
   {
     icon: Shield,
-    title: 'Cybersecurity',
-    description: 'Protect your digital assets with enterprise-grade security solutions and zero-trust architecture.',
-    features: ['Threat Detection', 'Security Audits', 'Compliance Management'],
+    title: 'ERP',
+    description: 'Transform your business operations with intelligent ERP solutions and integrated enterprise management.',
+    features: ['SAP S4 HANA', 'ERP ECC', 'SAP B1', 'Oracle', 'DMS'],
   },
   {
     icon: BarChart3,
@@ -47,9 +47,9 @@ const services = [
   },
   {
     icon: Code2,
-    title: 'Custom Development',
-    description: 'Build bespoke software solutions tailored to your unique business requirements and goals.',
-    features: ['Full-Stack Development', 'API Integration', 'Microservices'],
+    title: 'SAP',
+    description: 'Transform your enterprise with customised SAP solutions that streamline operations and improve efficiency.',
+    features: ['SAP Implementation', 'SAP Consulting', 'SAP Integration'],
   },
 ];
 
@@ -91,10 +91,10 @@ export function Services() {
                     </span>
                   ))}
                 </div>
-                <Button variant="ghost" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 group">
+                {/* <Button variant="ghost" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 group">
                   Learn More
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                </Button> */}
               </Card>
             </motion.div>
           ))}

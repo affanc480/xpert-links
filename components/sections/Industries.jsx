@@ -7,7 +7,9 @@ import {
   GraduationCap, 
   Banknote,
   ShoppingBag,
-  Cpu 
+  Cpu, 
+  Bot,
+  Workflow
 } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
@@ -19,9 +21,9 @@ const industries = [
     description: 'Secure, AI-driven solutions for modern banking and financial services.',
   },
   {
-    icon: Stethoscope,
-    name: 'Healthcare',
-    description: 'Transform patient care with AI diagnostics and intelligent systems.',
+    icon: Cpu,
+    name: 'Machine Integration',
+    description: 'Connect machines seamlessly with intelligent integration and real-time automation.',
   },
   {
     icon: GraduationCap,
@@ -39,9 +41,9 @@ const industries = [
     description: 'Intelligent retail solutions that enhance customer experience.',
   },
   {
-    icon: Cpu,
-    name: 'Technology',
-    description: 'Cutting-edge innovation for the technology sector.',
+    icon: Bot,
+    name: 'Manufacturing',
+    description: 'Transforming manufacturing with intelligent software solutions.',
   },
 ];
 

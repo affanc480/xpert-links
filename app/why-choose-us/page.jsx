@@ -22,7 +22,7 @@ const reasons = [
     icon: Award,
     title: 'Industry Expertise',
     description: '10+ years of experience delivering transformative solutions across industries.',
-    details: 'Our team has deep domain expertise in finance, healthcare, retail, and technology sectors.',
+    details: 'Our team has deep domain expertise in finance, Machine Integration, retail, and technology sectors.',
   },
   {
     icon: Users,

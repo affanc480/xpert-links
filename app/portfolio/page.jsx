@@ -24,12 +24,12 @@ const projects = [
     image: '💰',
   },
   {
-    title: 'Healthcare AI System',
-    category: 'Healthcare',
-    description: 'AI-powered diagnostic and patient care management system.',
-    technologies: ['Python', 'PyTorch', 'PostgreSQL', 'Azure'],
-    results: ['80% Faster Diagnosis', '95% Accuracy', '50% Cost Reduction'],
-    image: '🏥',
+    title: 'Machine Integration System',
+    category: 'Industrial Automation',
+    description: 'Intelligent machine integration solutions for seamless automation, monitoring, and operational efficiency.',
+    technologies: ['PLC', 'SCADA', 'OPC UA', 'Industrial IoT'],
+    results: ['40% Higher Efficiency', '99.9% System Uptime', '30% Reduced Downtime'],
+    image: '🏭',
   },
   {
     title: 'E-Commerce Intelligence',
@@ -138,10 +138,10 @@ export default function Portfolio() {
               Let's create innovative solutions that drive real business results.
             </p>
             <Link href="/contact">
-            <Button size="lg">
-              Start Your Project
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
+              <Button size="lg">
+                Start Your Project
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Button>
             </Link>
           </motion.div>
         </div>

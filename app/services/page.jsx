@@ -42,14 +42,14 @@ const services = [
   },
   {
     icon: Shield,
-    title: 'Cybersecurity',
-    description: 'Enterprise-grade security solutions to protect your digital assets and data.',
+    title: 'ERP',
+    description: 'Integrated ERP solutions that streamline operations, automate workflows, and drive business growth.',
     features: [
-      'Zero-trust architecture',
-      'Threat detection and response',
-      'Security compliance audits',
-      'Data encryption',
-      'Security training',
+      'SAP S4 HANA',
+      'SAP ECC',
+      'SAP B1',
+      'Oracle',
+      'DMS',
     ],
   },
   {
@@ -78,14 +78,14 @@ const services = [
   },
   {
     icon: Code2,
-    title: 'Custom Development',
-    description: 'Tailored software solutions built specifically for your business needs.',
+    title: 'SAP',
+    description: 'Tailored SAP solutions designed specifically for your business processes and goals.',
     features: [
-      'Full-stack development',
-      'API integration',
-      'Microservices architecture',
-      'Mobile app development',
-      'Legacy system modernization',
+      'SAP Implementation',
+      'SAP Consulting',
+      'SAP S/4HANA',
+      'SAP Integration',
+      'SAP ECC',
     ],
   },
 ];
@@ -150,10 +150,10 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-                  <Button variant="ghost" className="text-blue-400">
+                  {/* <Button variant="ghost" className="text-blue-400">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
+                  </Button> */}
                 </Card>
               </motion.div>
             ))}
