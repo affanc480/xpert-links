@@ -1,13 +1,14 @@
 'use client';
 import Link from "next/link";
 import { motion } from 'framer-motion';
-import { 
-  Zap, 
-  Shield, 
-  Globe, 
+import {
+  Zap,
+  Shield,
+  Globe,
   TrendingUp,
   ArrowRight,
-  CheckCircle 
+  CheckCircle,
+  Database
 } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
@@ -29,11 +30,11 @@ const solutions = [
     detailed: 'Transform raw data into actionable intelligence with our advanced analytics platform powered by machine learning.',
   },
   {
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Protect your data with cutting-edge security protocols and AI-powered threat detection.',
-    benefits: ['Zero-trust security', 'Real-time monitoring', 'Compliance ready'],
-    detailed: 'Our security solutions combine AI threat detection with zero-trust architecture for comprehensive protection.',
+    icon: Database,
+    title: 'ERP Solutions',
+    description: 'Streamline your business with integrated ERP solutions that automate operations and improve efficiency.',
+    benefits: ['Business process automation', 'Real-time analytics', 'Scalable enterprise management'],
+    detailed: 'Our ERP solutions unify finance, inventory, HR, procurement, and operations into a single intelligent platform, enabling real-time insights, streamlined workflows, and sustainable business growth.',
   },
   {
     icon: Globe,
@@ -71,7 +72,7 @@ export default function Solutions() {
             transition={{ delay: 0.1 }}
             className="text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto"
           >
-            Comprehensive solutions designed to address your most complex business challenges 
+            Comprehensive solutions designed to address your most complex business challenges
             and drive sustainable growth.
           </motion.p>
         </div>
@@ -135,10 +136,10 @@ export default function Solutions() {
               Let's discuss which of our solutions best fits your business needs.
             </p>
             <Link href="/contact">
-            <Button size="lg">
-              Schedule a Consultation
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
+              <Button size="lg">
+                Schedule a Consultation
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Button>
             </Link>
           </motion.div>
         </div>

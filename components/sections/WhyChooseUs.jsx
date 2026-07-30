@@ -1,15 +1,16 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { 
-  Award, 
-  Users, 
-  Zap, 
-  Shield, 
-  Clock, 
+import {
+  Award,
+  Users,
+  Zap,
+  Shield,
+  Clock,
   Globe,
   TrendingUp,
-  Heart
+  Heart,
+  Database
 } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
@@ -31,9 +32,9 @@ const reasons = [
     description: 'Agile development cycles delivering results 3x faster than industry average.',
   },
   {
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-grade security with continuous monitoring and compliance.',
+    icon: Database,
+    title: 'ERP Solutions',
+    description: 'Integrated ERP solutions that streamline operations, automate workflows, and drive business growth.',
   },
   {
     icon: Clock,

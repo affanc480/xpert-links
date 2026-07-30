@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Play, Zap, Shield, Sparkles } from 'lucide-react';
+import { ArrowRight, Play, Zap, Shield, Sparkles, Database } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
 export function Hero() {
@@ -159,7 +159,7 @@ export function Hero() {
                   </div>
                   <div className="h-16 glass rounded-xl p-4 flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">
-                      <Shield className="w-4 h-4 text-blue-400" />
+                      <Database className="w-4 h-4 text-blue-400" />
                     </div>
                     <div>
                       <p className="text-sm font-medium text-black dark:text-white">ERP</p>

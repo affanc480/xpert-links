@@ -1,17 +1,18 @@
 'use client';
 import Link from "next/link";
 import { motion } from 'framer-motion';
-import { 
-  Award, 
-  Users, 
-  Zap, 
-  Shield, 
-  Clock, 
+import {
+  Award,
+  Users,
+  Zap,
+  Shield,
+  Clock,
   Globe,
   TrendingUp,
   Heart,
   ArrowRight,
-  CheckCircle 
+  CheckCircle,
+  Database
 } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
@@ -37,10 +38,10 @@ const reasons = [
     details: 'Our streamlined processes ensure you see results quickly without compromising quality.',
   },
   {
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-grade security with continuous monitoring and compliance.',
-    details: 'We maintain the highest security standards with regular audits and compliance checks.',
+    icon: Database,
+    title: 'ERP Solutions',
+    description: 'Integrated ERP solutions that streamline business operations and improve productivity.',
+    details: 'We deliver end-to-end ERP solutions that unify finance, inventory, procurement, HR, and operations into a single platform, providing real-time insights, automation, and scalable business management.',
   },
   {
     icon: Clock,
@@ -95,7 +96,7 @@ export default function WhyChooseUs() {
             transition={{ delay: 0.1 }}
             className="text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto"
           >
-            We combine cutting-edge technology with deep industry expertise to deliver exceptional results 
+            We combine cutting-edge technology with deep industry expertise to deliver exceptional results
             that drive real business growth.
           </motion.p>
         </div>
@@ -139,10 +140,10 @@ export default function WhyChooseUs() {
               Join the enterprises that have already chosen us as their digital transformation partner.
             </p>
             <Link href="/signup">
-            <Button size="lg">
-              Start Your Journey
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
+              <Button size="lg">
+                Start Your Journey
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Button>
             </Link>
           </motion.div>
         </div>

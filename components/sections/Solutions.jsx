@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check, Sparkles, Zap, Shield, Globe, TrendingUp } from 'lucide-react';
+import { Check, Sparkles, Zap, Shield, Globe, TrendingUp, Database } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -20,10 +20,10 @@ const solutions = [
     benefits: ['Real-time insights', 'Predictive forecasting', 'Custom dashboards'],
   },
   {
-    title: 'Enterprise Security',
-    description: 'Protect your data with cutting-edge security protocols and AI-powered threat detection.',
-    icon: Shield,
-    benefits: ['Zero-trust security', 'Real-time monitoring', 'Compliance ready'],
+    title: 'ERP Solutions',
+    description: 'Empower your enterprise with intelligent ERP solutions for seamless operations and business growth.',
+    icon: Database,
+    benefits: ['Integrated workflows', 'Real-time insights','Scalable enterprise solutions'],
   },
   {
     title: 'Global Connectivity',
